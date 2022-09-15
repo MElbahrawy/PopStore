@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.f2047b60.css",
-    "main.js": "/static/js/main.dc5daa5c.js",
-    "index.html": "/index.html",
-    "main.f2047b60.css.map": "/static/css/main.f2047b60.css.map",
-    "main.dc5daa5c.js.map": "/static/js/main.dc5daa5c.js.map"
+    "main.css": "/PopStore/static/css/main.f2047b60.css",
+    "main.js": "/PopStore/static/js/main.dc5daa5c.js",
+    "index.html": "/PopStore/index.html",
+    "main.f2047b60.css.map": "/PopStore/static/css/main.f2047b60.css.map",
+    "main.dc5daa5c.js.map": "/PopStore/static/js/main.dc5daa5c.js.map"
   },
   "entrypoints": [
     "static/css/main.f2047b60.css",
