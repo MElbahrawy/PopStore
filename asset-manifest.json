@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/PopStore/static/css/main.f2047b60.css",
-    "main.js": "/PopStore/static/js/main.dc5daa5c.js",
+    "main.css": "/PopStore/static/css/main.b058a794.css",
+    "main.js": "/PopStore/static/js/main.071adbb1.js",
     "index.html": "/PopStore/index.html",
-    "main.f2047b60.css.map": "/PopStore/static/css/main.f2047b60.css.map",
-    "main.dc5daa5c.js.map": "/PopStore/static/js/main.dc5daa5c.js.map"
+    "main.b058a794.css.map": "/PopStore/static/css/main.b058a794.css.map",
+    "main.071adbb1.js.map": "/PopStore/static/js/main.071adbb1.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2047b60.css",
-    "static/js/main.dc5daa5c.js"
+    "static/css/main.b058a794.css",
+    "static/js/main.071adbb1.js"
   ]
 }
