@@ -1,0 +1,91 @@
+body {
+    background-color: #3D5A80;
+}
+
+#navbar {
+    background-color: #293241;
+    padding: 0 20px;
+    border: 0 !important;
+}
+
+.logo {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+    margin-right: 50px;
+}
+
+.pagelogo {
+    background-color: #3D5A80;
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-decoration: none;
+}
+
+.pagetitle {
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.page {
+    margin: 0 10px;
+    color: #c9b0bb;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.page:hover {
+    color: white;
+}
+
+.page:focus {
+    color: white;
+}
+
+.pageactive {
+    color: white;
+}
+
+.navbtn {
+    margin-right: 10px;
+    color: #3D5A80;
+    background-color: #293241;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+}
+
+.navbtn:hover {
+    color: white;
+    background-color: #3D5A80;
+}
+
+.cart {
+    display: inline-flex;
+    background-color: #E0FBFC;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
