@@ -16,7 +16,8 @@ export default function Product(props) {
       <Card id="card">
 
         <Card.Img id='prodimg'
-          src={id ? image : "https://via.placeholder.com/800x1200/ddd/000?text=No Preview"}
+          src={`https://picsum.photos/640/480?random=${id}`}
+          alt='Error_404 not found'
         />
 
         <Card.Body className='cardbody'>

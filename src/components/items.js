@@ -26,7 +26,7 @@ export default function Items() {
             <div className='item'>
                 <img
                     id='itemimg'
-                    src={Item.images ? Item.images : "https://via.placeholder.com/500/ddd/000?text=No Preview"}
+                    src={Item.images ? `https://picsum.photos/640/480?random=${id}` : "https://via.placeholder.com/500/ddd/000?text=No Preview"}
                     alt='notfound'
                 />
                 <div id='itemdet'>

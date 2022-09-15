@@ -12,7 +12,7 @@ export default function Navbar() {
 
     <header id='navbar' class="d-flex fixed-top flex-wrap align-items-center justify-content-center justify-content-md-between border-bottom">
 
-      <a href="/" class="logo d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+      <a href="/" className="logo d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
         <h3 className='pagelogo'>POP</h3>
         <h4 className='pagetitle'>Store</h4>
       </a>
