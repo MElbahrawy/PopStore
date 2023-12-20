@@ -1,0 +1,16 @@
+#carousel {
+  margin-top: 72px;
+  margin-bottom: 20px;
+  max-height: 488px;
+  overflow: hidden;
+  box-shadow: 0 -5px 10px 0px black;
+}
+@media (max-width: 767px) {
+  #carousel {
+    margin-top: 95px;
+  }
+}
+.sliderimg {
+  width: 100%;
+  object-fit: contain;
+}

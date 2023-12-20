@@ -1,0 +1,120 @@
+#about {
+  gap: 50px;
+  justify-content: space-evenly;
+}
+
+#aboutimg {
+  background-color: #3d5a80;
+  height: 92vh;
+  margin-right: 0;
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  #aboutimg {
+    display: none;
+  }
+}
+#aboutusimg {
+  width: 250px;
+  height: 250px;
+  border: 5px solid #ee6c4d;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  box-shadow: 0 0 10px black;
+  position: relative;
+}
+
+#iti {
+  position: absolute;
+  bottom: 70px;
+  right: 48%;
+  width: 75px;
+  height: 75px;
+  border-radius: 25%;
+  -webkit-border-radius: 25%;
+  -moz-border-radius: 25%;
+  -ms-border-radius: 25%;
+  -o-border-radius: 25%;
+  background-color: white;
+  padding: 5px;
+}
+
+#abouttext {
+  background-color: #3d5a80;
+  height: 92vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#abouttitle {
+  color: #e0fbfc;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+#aboutdesc {
+  color: #e0fbfc;
+  margin: 5px;
+  padding: 5px;
+  box-shadow: 0 0 10px -5px black;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+#contact {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #e0fbfc;
+}
+
+#social {
+  display: flex;
+  gap: 15px;
+}
+
+#social button {
+  border: none;
+  color: #e0fbfc;
+  padding: 10px 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.facebook {
+  background-color: #4267b2;
+}
+
+.twitter {
+  background-color: #00acee;
+}
+
+.linkedin {
+  background-color: #0072b1;
+}
+
+.github {
+  background-color: #171515;
+}
+
+#social button:hover {
+  opacity: 0.9;
+  box-shadow: 0 0 5px black;
+}

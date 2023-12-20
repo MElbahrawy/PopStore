@@ -1,0 +1,31 @@
+.pagination {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.pagi,
+.pagi:focus {
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  outline: 1px solid white !important;
+  background-color: transparent;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.pagi:hover {
+  background-color: white;
+  color: #ee6c4d;
+}
+
+.paginationcounter {
+  margin-bottom: 0;
+  color: white;
+}

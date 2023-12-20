@@ -1,0 +1,99 @@
+#card {
+  background-color: #e0fbfc;
+  width: calc(20% - 20px);
+  transition: transform 0.2s;
+  -webkit-transition: transform 0.2s;
+  -moz-transition: transform 0.2s;
+  -ms-transition: transform 0.2s;
+  -o-transition: transform 0.2s;
+}
+@media (max-width: 1194px) {
+  #card {
+    width: calc(25% - 20px);
+  }
+}
+@media (max-width: 991px) {
+  #card {
+    width: calc(33.3% - 20px);
+  }
+}
+@media (max-width: 767px) {
+  #card {
+    width: calc(50% - 20px);
+  }
+}
+@media (max-width: 500px) {
+  #card {
+    width: 100%;
+    margin: 0 100px;
+  }
+}
+@media (max-width: 414px) {
+  #card {
+    margin: 0 20px;
+  }
+}
+
+#card:hover {
+  transform: scale(1.01, 1.01);
+  -webkit-transform: scale(1.01, 1.01);
+  -moz-transform: scale(1.01, 1.01);
+  -ms-transform: scale(1.01, 1.01);
+  -o-transform: scale(1.01, 1.01);
+}
+
+#prodimg {
+  height: 180px;
+}
+
+.cardbody {
+  padding: 10px 15px;
+}
+
+.cat {
+  background-color: #ee6c4d;
+  color: white;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  font-size: 1em;
+}
+.prodbtn {
+  outline: 2px solid #ee6c4d;
+  border: none;
+  font-weight: 500;
+  margin-right: 10px;
+  color: #ee6c4d;
+  font-size: 1em;
+}
+
+.prodbtn:hover {
+  background-color: #ee6c4d;
+  cursor: pointer;
+  color: white;
+}
+
+.prodbtn a {
+  text-decoration: none;
+  color: #ee6c4d;
+}
+
+.prodbtn:hover a {
+  color: white;
+}
+
+.buyprice {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: black;
+}
+
+.oldprice {
+  text-decoration-line: line-through;
+  color: black;
+  opacity: 0.3;
+}
